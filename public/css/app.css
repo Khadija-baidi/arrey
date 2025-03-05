@@ -2,10 +2,10 @@
     padding: 0;
     margin: 0;
 }
-/* Import Google Font */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
 
-/* Global Styles */
+
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
@@ -14,7 +14,7 @@ body {
     color: #333;
 }
 
-/* Navbar */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -41,4 +41,38 @@ nav button {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.parte1 {
+    align-items: center;
+ display: flex;
+ flex-direction: column;
+gap: 5vh;
+    padding: 30px 0;
+}
+.parte1 img{
+    width: 50vh;
+}
+
+.parte1>h1 {
+    font-size: 32px;
+    color: #222;
+}
+
+.parte1> button {
+    background: #6C49FF;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.logo>img{
+ width: 20vh;
 }
