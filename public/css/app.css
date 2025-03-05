@@ -131,6 +131,7 @@ gap: 5vh;
     margin-top: 20px;
 }
 
+
 .stat {
     font-size: 24px;
     font-weight: 600;
@@ -190,6 +191,7 @@ gap: 5vh;
      cursor: pointer;
  }
 
+<<<<<<< HEAD
 .footer {
     display: flex;
     justify-content: space-between;
@@ -202,3 +204,21 @@ gap: 5vh;
     color: #33333370;
 }
  
+=======
+.parte5{
+    padding-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.display>div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+>>>>>>> e993c12452bce2bfb33aaf39c7bf78a4b86e9cf0
