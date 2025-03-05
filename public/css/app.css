@@ -164,10 +164,32 @@ gap: 5vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-   
-   
 
 }
+/* Signup Section */
+.signup{
+    text-align: center;
+    padding-top: 15vh;
+    background-color: rgba(173, 216, 230, 0.37);
+ }
+ .signup > div{
+     display:grid;
+     grid-template-rows: repeat(1fr);
+     width: 30%;
+     height: 15vh;
+     padding-left: 35vw;
+     gap:4vh;
+     border: none;
+ }
+ .signup div> .btn-primary{
+     border: none;
+     background: #6C49FF;
+     color: white;
+     border: none;
+     padding: 10px 20px;
+     border-radius: 5px;
+     cursor: pointer;
+ }
 
 .parte5{
     padding-top: 5vh;
