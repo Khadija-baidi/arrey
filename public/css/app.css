@@ -46,7 +46,7 @@ nav button {
 .features {
     text-align: center;
     padding: 60px 100px;
-    background-color:girgba(128, 0, 128, 0.292);
+    background-color: rgba(173, 216, 230, 0.305);
 }
 
 .features h2 {
@@ -78,7 +78,7 @@ nav button {
 .feature-list>.feature-item>svg{
     background-color: #706d6d52;
     border-radius: 50%;
-
+}
 .parte1 {
     align-items: center;
  display: flex;
