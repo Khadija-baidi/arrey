@@ -169,7 +169,7 @@ gap: 5vh;
 .signup{
     text-align: center;
     padding-top: 15vh;
-    background-color: rgba(173, 216, 230, 0.37);
+    background-color: hwb(195 68% 10% / 0.37);
  }
  .signup > div{
      display:grid;
@@ -190,4 +190,15 @@ gap: 5vh;
      cursor: pointer;
  }
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px ;
+    background: #F9F9FF;
+    color: #666;
+}
+.footer > div > .social-links{
+    text-decoration: none;
+    color: #33333370;
+}
  
