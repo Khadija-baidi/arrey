@@ -42,7 +42,7 @@ nav button {
     border-radius: 5px;
     cursor: pointer;
 }
-/* Features Section */
+
 .features {
     text-align: center;
     padding: 60px 100px;
@@ -112,3 +112,26 @@ gap: 5vh;
 .logo>img{
  width: 20vh;
 }
+
+
+.part3{
+    text-align: center;
+    padding: 80px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.child1> h3{
+    font-size: 28px;  
+    padding-top: 15vh;
+}
+.child2 , .child1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+   
+
+}
+
+ 
